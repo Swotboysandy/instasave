@@ -187,7 +187,7 @@ function App() {
                     </div>
                   </div>
                   <p className="text-gray-300 text-lg leading-relaxed mb-6">
-                    Our advanced AI doesn't just save your reels—it understands them. Get intelligent summaries, 
+                    Our advanced AI doesn't just save your reels, it understands them. Get intelligent summaries, 
                     automatic categorization, and contextual search that finds exactly what you're looking for.
                   </p>
                   <div className="flex items-center space-x-4">
@@ -214,7 +214,7 @@ function App() {
                   </div>
                   <h3 className="text-xl font-bold text-white mb-4">Lightning Fast</h3>
                   <p className="text-gray-300 leading-relaxed flex-1">
-                    Save any reel with a single click. Our browser extension and mobile app work seamlessly across all platforms.
+                    Save any reel with a single click. Our mobile app work seamlessly across all platforms.
                   </p>
                   <div className="mt-6 flex items-center space-x-2 text-purple-400">
                     <Play className="w-4 h-4" />
@@ -258,7 +258,7 @@ function App() {
                 </div>
                 <h3 className="text-lg font-bold text-white mb-3">Cross-Platform</h3>
                 <p className="text-gray-300 text-sm leading-relaxed">
-                  Works everywhere you do. Browser extension, mobile app, and web dashboard all in perfect sync.
+                  Works everywhere you do. Mobile app, and web dashboard all in perfect sync.
                 </p>
               </div>
             </div>
@@ -286,13 +286,13 @@ function App() {
               {
                 step: "01",
                 title: "Sign Up & Install",
-                description: "Create your account and install our browser extension or mobile app in under 30 seconds.",
+                description: "Create your account and install our mobile app in under 30 seconds.",
                 color: "from-blue-500 to-cyan-500"
               },
               {
                 step: "02",
                 title: "Save with One Click",
-                description: "Found an amazing reel? Just click our extension button and it's instantly saved with AI-generated tags.",
+                description: "Found an amazing reel? Just click our save button and it's instantly saved with AI-generated tags.",
                 color: "from-purple-500 to-pink-500"
               },
               {
