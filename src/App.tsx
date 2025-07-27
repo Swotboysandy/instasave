@@ -389,7 +389,7 @@ function App() {
           
           <div className="border-t border-white/10 pt-8 text-center">
             <p className="text-gray-400 font-light">
-              &copy; 2025 SaveSense. Never lose a reel again.
+              &copy; 2025 SaveSense. Never lose a thing again.
             </p>
           </div>
         </div>
