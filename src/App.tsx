@@ -107,8 +107,8 @@ function App() {
           </h1>
           
           <p className="text-xl lg:text-2xl text-gray-300 mb-12 max-w-4xl mx-auto leading-relaxed font-light">
-            Transform chaos into clarity. Save, organize, and rediscover your favorite Instagram Reels 
-            with AI-powered intelligence that actually understands your content.
+            Collect, summarize, and search saved posts, videos, and clips from Instagram,
+            YouTube, TikTok, and any app or website.
           </p>
 
           <form onSubmit={handleSubmit} className="max-w-lg mx-auto mb-12">
@@ -261,9 +261,9 @@ function App() {
               <span className="text-sm font-bold text-purple-400 tracking-[0.2em] uppercase">Simple Process</span>
             </div>
             <h2 className="text-5xl lg:text-6xl font-black text-white mb-6 leading-tight">
-              Three Steps to
+              Three Steps. 
               <span className="block bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-                Content Mastery
+               Infinite Ideas.
               </span>
             </h2>
           </div>
@@ -317,9 +317,9 @@ function App() {
             
             <div className="relative z-10">
               <h2 className="text-4xl lg:text-6xl font-black text-white mb-6 leading-tight">
-                Ready to Transform
+                Never Lose anything
                 <span className="block bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                  Your Content Game?
+                 Again — Ready?
                 </span>
               </h2>
               <p className="text-xl text-gray-300 mb-10 font-light">
