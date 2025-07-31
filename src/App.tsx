@@ -25,17 +25,28 @@ import {
 function App() {
   const [email, setEmail] = useState('');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [rotatingWord, setRotatingWord] = useState('Creators');
-  const words = ['reel', 'shorts', 'video', 'clip', 'tiktok'];
+  const firstWords = ["reel", "short", "video", "clip", "tiktok"];
+  const secondWords = ["moment", "laugh", "trend", "post", "highlight"];
+  const [firstWordIndex, setFirstWordIndex] = useState(0);
+  const [secondWordIndex, setSecondWordIndex] = useState(0);
   let wordIndex = 0;
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      wordIndex = (wordIndex + 1) % words.length;
-      setRotatingWord(words[wordIndex]);
-    }, 2000);
-    return () => clearInterval(interval);
+    useEffect(() => {
+    const interval1 = setInterval(() => {
+      setFirstWordIndex((prev) => (prev + 1) % firstWords.length);
+    }, 2000); // every 2 seconds
+    
+    const interval2 = setInterval(() => {
+      setSecondWordIndex((prev) => (prev + 1) % secondWords.length);
+    }, 3000); // every 3 seconds (you can adjust if needed)
+
+     return () => {
+      clearInterval(interval1);
+      clearInterval(interval2);
+    };
   }, []);
+
+  const capitalize = (word) => word.charAt(0).toUpperCase() + word.slice(1);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -113,7 +124,7 @@ function App() {
           <h1 className="text-6xl lg:text-8xl font-black mb-8 leading-[0.9] tracking-tight">
             <span className="block text-white">Never Lose</span>
             <span className="block bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-              Another Reel
+              Another  {capitalize(firstWords[firstWordIndex])} 
             </span>
             <span className="block text-white">Again</span>
           </h1>
@@ -161,7 +172,7 @@ function App() {
             <h2 className="text-5xl lg:text-7xl font-black mb-8 leading-tight">
               <span className="block text-white">Built for</span>
               <span className="block bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                {rotatingWord}
+                 {capitalize(secondWords[secondWordIndex])}
               </span>
             </h2>
             <p className="text-xl text-gray-400 max-w-3xl mx-auto font-light">
