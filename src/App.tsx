@@ -29,7 +29,7 @@ function App() {
   const secondWords = ["Everyone", "You", "Creators"];
   const [firstWordIndex, setFirstWordIndex] = useState(0);
   const [secondWordIndex, setSecondWordIndex] = useState(0);
-  let wordIndex = 0;
+
 
     useEffect(() => {
     const interval1 = setInterval(() => {
