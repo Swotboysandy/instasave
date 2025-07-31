@@ -25,8 +25,8 @@ import {
 function App() {
   const [email, setEmail] = useState('');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const firstWords = ["reel", "short", "video", "clip", "tiktok"];
-  const secondWords = ["moment", "laugh", "trend", "post", "highlight"];
+  const firstWords = ["reel", "shorts", "video", "clip", "tiktok"];
+  const secondWords = ["Everyone", "You", "Creators"];
   const [firstWordIndex, setFirstWordIndex] = useState(0);
   const [secondWordIndex, setSecondWordIndex] = useState(0);
   let wordIndex = 0;
