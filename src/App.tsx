@@ -26,7 +26,7 @@ function App() {
   const [email, setEmail] = useState('');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [rotatingWord, setRotatingWord] = useState('Creators');
-  const words = ['Creators', 'Everyone', 'You', 'Marketers', 'Teams', 'Visionaries'];
+  const words = ['reel', 'shorts', 'video', 'clip', 'tiktok'];
   let wordIndex = 0;
 
   useEffect(() => {
