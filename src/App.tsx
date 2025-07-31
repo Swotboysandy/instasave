@@ -117,7 +117,7 @@ function App() {
           <div className="mb-8">
             <div className="inline-flex items-center space-x-2 bg-white/5 backdrop-blur-sm border border-white/10 rounded-full px-6 py-3 mb-8">
               <Star className="w-5 h-5 text-yellow-400" />
-              <span className="text-sm font-medium text-gray-300">Join 10,000+ creators in the waitlist</span>
+              <span className="text-sm font-medium text-gray-300">Join 1000+ creators in the waitlist</span>
             </div>
           </div>
           
