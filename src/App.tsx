@@ -336,7 +336,7 @@ function App() {
               <h2 className="text-4xl lg:text-6xl font-black text-white mb-6 leading-tight">
                 Never Lose anything
                 <span className="block bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                 Again — Ready?
+                 Again - Ready?
                 </span>
               </h2>
               <p className="text-xl text-gray-300 mb-10 font-light">
