@@ -46,13 +46,6 @@ function App() {
     };
   }, []);
 
-  const capitalize = (word) => word.charAt(0).toUpperCase() + word.slice(1);
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log('Email submitted:', email);
-    setEmail('');
-  };
 
   return (
     <div className="min-h-screen bg-black text-white overflow-hidden">
