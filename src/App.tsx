@@ -303,7 +303,7 @@ function App() {
               {
                 step: "02",
                 title: "Save with One Click",
-                description: "Found an amazing reel? Just click our save button and it's instantly saved with AI-generated tags.",
+                description: "Found an amazing reel? Just share with our app and it's instantly saved. No more bookmarks or screenshots.",
                 color: "from-purple-500 to-pink-500"
               },
               {
