@@ -75,7 +75,7 @@ function App() {
               <div className="absolute -top-1 -right-1 w-4 h-4 bg-gradient-to-r from-pink-400 to-red-400 rounded-full animate-pulse"></div>
             </div>
             <span className="text-3xl font-black tracking-tight bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
-              SaveSense
+              ClipVault
             </span>
           </div>
           
@@ -386,7 +386,7 @@ function App() {
                 <div className="absolute -top-1 -right-1 w-4 h-4 bg-gradient-to-r from-pink-400 to-red-400 rounded-full animate-pulse"></div>
               </div>
               <span className="text-3xl font-black tracking-tight bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
-                SaveSense
+                ClipVault
               </span>
             </div>
             
@@ -400,7 +400,7 @@ function App() {
           
           <div className="border-t border-white/10 pt-8 text-center">
             <p className="text-gray-400 font-light">
-              &copy; 2025 SaveSense. Never lose a thing again.
+              &copy; 2025 ClipVault. Never lose a thing again.
             </p>
           </div>
         </div>
